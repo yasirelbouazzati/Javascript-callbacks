@@ -23,8 +23,6 @@ describe("Given function createUser", () => {
         email +
         " has been correctly created should be returned.",
       () => {
-        const email = "yasir7bouazzati@gmail.com";
-
         const result = createUser(email, onError, onSuccess);
 
         expect(result).toEqual(
