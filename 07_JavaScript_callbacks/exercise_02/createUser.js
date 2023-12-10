@@ -13,3 +13,22 @@
  * output
  *  - string
  */
+
+/**
+ * @param {string} email
+ * @param {Function} onError
+ * @param {Function} onSuccess
+ * @returns {string}
+ */
+
+const createUser = function (email, onError, onSuccess) {
+  let value = Math.random();
+
+  if (value >= 0.5 && email != " ") {
+    return onSuccess(email);
+  }
+
+  return onError();
+};
+
+export default createUser;

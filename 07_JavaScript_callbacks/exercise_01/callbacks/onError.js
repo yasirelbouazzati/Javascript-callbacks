@@ -7,3 +7,14 @@
  * output:
  *  - empty array
  */
+
+/**
+ * @param none
+ * @returns {array}
+ */
+
+const onError = function () {
+  return [" "];
+};
+
+export default onError;

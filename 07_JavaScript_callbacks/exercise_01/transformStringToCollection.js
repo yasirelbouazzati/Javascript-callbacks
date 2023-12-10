@@ -12,3 +12,22 @@
  * output
  *  - array
  */
+
+/**
+ * @param {any} value
+ * @param {Function} onError
+ * @param {Function} onSuccess
+ * @returns {array}
+ */
+
+const transformStringToArray = function (value, onError, onSuccess) {
+  let array = onError();
+
+  if (typeof value === "string" && value !== "") {
+    array = onSuccess(value);
+  }
+
+  return array;
+};
+
+export default transformStringToArray;
