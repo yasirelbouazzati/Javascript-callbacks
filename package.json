@@ -2,6 +2,7 @@
   "name": "07_javascript_callbacks",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
