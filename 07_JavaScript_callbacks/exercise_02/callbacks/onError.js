@@ -7,9 +7,10 @@
  * output:
  *  - string: 'Error: user not created'
  */
+
 /**
- * @param none
- * @returns {string}
+ * @param
+ * @returns string
  */
 
 const onError = function () {

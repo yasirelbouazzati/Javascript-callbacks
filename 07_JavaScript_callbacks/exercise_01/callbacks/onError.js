@@ -9,12 +9,11 @@
  */
 
 /**
- * @param none
- * @returns {array}
+ * @returns empty array
  */
 
 const onError = function () {
-  return [" "];
+  return [];
 };
 
 export default onError;

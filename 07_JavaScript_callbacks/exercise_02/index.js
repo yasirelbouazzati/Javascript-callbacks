@@ -6,12 +6,14 @@ import createUser from "./createUser.js";
 
 //test with email as empty string and log result
 
-const result = createUser(" ", onError, onSuccess);
-
+const result = createUser("", onError, onSuccess);
 console.log(result);
 
 //test with email as string and log result
 
-const result1 = createUser("yasir7bouazzati@gmail.com", onError, onSuccess);
-
+const result1 = createUser(
+  "yasirelbouazzati@gmail.com",
+  onError,
+  onSuccess,
+);
 console.log(result1);

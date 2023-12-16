@@ -6,34 +6,29 @@ import transformStringToArray from "./transformStringToCollection.js";
 
 //test with value as number and log result
 
-const results = transformStringToArray(1, onError, onSuccess);
-
-console.log(results);
+const result = transformStringToArray(8, onError, onSuccess);
+console.log(result);
 
 //test with value as array and log result
 
-const results_2 = transformStringToArray([1, 2, 3, 4], onError, onSuccess);
-
-console.log(results_2);
+const result2 = transformStringToArray([8, 9, 10, 11], onError, onSuccess);
+console.log(result2);
 
 //test with value as boolean and log result
 
-const results_3 = transformStringToArray(true, onError, onSuccess);
-
-console.log(results_3);
+const result3 = transformStringToArray(true, onError, onSuccess);
+console.log(result3);
 
 //test with value as empty string and log result
 
-const results_4 = transformStringToArray("", onError, onSuccess);
-
-console.log(results_4);
+const result4 = transformStringToArray("", onError, onSuccess);
+console.log(result4);
 
 //test with value as string and log result
 
-const results_5 = transformStringToArray(
-  "cr7 is the best footballer",
+const result5 = transformStringToArray(
+  "Hello, my name is Yasir",
   onError,
   onSuccess,
 );
-
-console.log(results_5);
+console.log(result5);

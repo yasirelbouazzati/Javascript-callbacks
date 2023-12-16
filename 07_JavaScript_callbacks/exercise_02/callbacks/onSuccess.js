@@ -10,8 +10,9 @@
  */
 
 /**
+ * It receives an email as string and returns a string
  * @param {string} email
- * @returns {string}
+ * @returns string
  */
 
 const onSuccess = function (email) {
