@@ -1,9 +1,22 @@
 /**
- * Define 'onError' function and signature
+ * Define 'onSuccess' function and signature
+ * It receives an email as string and returns a string
  *
  * input:
- *  - none
+ *  - email: string
  *
  * output:
- *  - string: 'Error: user not created'
+ *  - string: User with email {email} has been correctly created
  */
+
+/**
+ *
+ * @param {string} email
+ * @returns string
+ */
+
+function onSuccess(email) {
+  return `User with email ${email} has been correctly created`;
+}
+
+export default onSuccess;
